@@ -116,6 +116,7 @@
   display: block;
   font-size: 20px;
   margin-bottom: 2rem;
+  color: #22577A;
 }
 .box.open{
   opacity: 1;
