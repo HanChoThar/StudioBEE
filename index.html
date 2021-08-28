@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
   <title>Studio BEE</title>
   <link rel="shortcut icon" sizes="32x32" href="logos/logo WD7.png">
@@ -18,16 +19,16 @@
         <a href="index.html"><img src="logos/logo WD7.png" alt="logo"></a>
       </div>
       <ul class="menu">
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">OUR SERVICES</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#service">OUR SERVICES</a></li>
         <li><a href="#">PACKAGES</a></li>
         <li><a href="#">PORTFORLIO</a></li>
       </ul>
       <button class="fancy-burger">
         <span class="box">
           <div class="box-menu">
-            <a href="#">ABOUT US</a>
-            <a href="#">OUR SERVICES</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#service">OUR SERVICES</a>
             <a href="#">PACKAGES</a>
             <a href="#">PORTFORLIO</a>
           </div>
@@ -49,6 +50,49 @@
     </div>
   </section>
 
+  <!-- about us -->
+  <section class="aboutUs">
+    <div class="all">
+      <div id="about">ABOUT US</div>
+      <p class="about_text" data-aos="zoom-out-up" data-aos-delay="90">ကျွန်တော်တို့သည် ရန်ကုန်အခြေစိုက် Digital marketing agency တစ်ခုဖြစ်ပြီး ။ Digital marketing services အမျိုးမျိုးကို ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ် ။ ကျွန်တော်တို့သည် ထို Digital marketing services အမျိုးမျိုးတို့ကို ၂၀၂၀ခုနှစ်မှစပြီး လုပ်ငန်းနယ်ပယ်အသီးသီးအတွက် ဝန်ဆောင်မှုပေးခဲ့ပြီး ဖြစ်ပါတယ် ။ ယခုလက်ရှိမှာတော့ Page management service, Content writing service, Visual design creation service, Media buying service တို့ကို ဝန်ဆောင်မှုပေးလျက် ရှိပါတယ်။</p>
+    </div>
+  </section>
+
+  <div class="photo">
+    <div>
+      <img class="hello"  data-aos="zoom-in" data-aos-delay="90" src="logos/Photo1 WD5.png" alt="WD5">
+    </div>
+    <div>
+      <img class="hello" data-aos="zoom-in" data-aos-delay="90" src="logos/Photo 2 WD6.png" alt="WD6">
+    </div>
+  </div>
+
+  <!-- our services -->
+  <section style="background-color: #80ED99;position: relative;">
+    <div id="service">OUR SERVICES</div>
+    <div class="OurServices">
+      <div class="services one" data-aos="zoom-in" data-aos-delay="90">
+        <img src="logos/icon1 WD8.png" alt="">
+        <p>Visual design service</p>
+      </div>
+      <div class="services two" data-aos="zoom-in" data-aos-delay="90">
+        <img src="logos/Icon 2 WD9.png" alt="">
+        <p>Content writing service</p>
+      </div>
+      <div class="services three" data-aos="zoom-in" data-aos-delay="90">
+        <img src="logos/icon 3 WD10.png" alt="">
+        <p>Page management service</p>
+      </div>
+      <div class="services four" data-aos="zoom-in" data-aos-delay="90">
+        <img src="logos/icon 4 WD11.png" alt="">
+        <p>Support</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

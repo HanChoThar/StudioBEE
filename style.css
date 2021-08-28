@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Public Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root{
@@ -126,13 +127,14 @@
 /* hero section */
 .hero{
   background-color: #C7F9CC;
+  height: 90vh;
   padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero img{
+.hero img, .hello{
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -154,6 +156,89 @@
 }
 .hero-one button a{
   text-decoration: none;
+  color: #22577A;
+}
+
+/* about us */
+.aboutUs{
+  position: relative;
+  background-color: #80ED99;
+}
+
+.all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#about{
+  background-color: #57CC99;
+  padding: 0.8rem;
+  border-radius: 25px;
+  position: absolute;
+  color: white;
+  right: 0;
+  top: -1rem;
+}
+
+.about_text{
+  text-align: center;
+  margin: 3rem 0;
+  line-height: 1.7;
+  font-size: 18px;
+  /* font-weight: 700; */
+  color: #22577A;
+}
+
+/* about photo */
+.photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C7F9CC;
+  padding: 3rem 0rem;
+}
+
+
+
+/* services */
+.OurServices{
+  margin-bottom: 2rem;
+  max-width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* margin-top: 2rem; */
+}
+
+#service{
+  background-color: #57CC99;
+  padding: 0.8rem;
+  border-radius: 25px;
+  position: absolute;
+  color: white;
+  right: 13%;
+  top: -1rem;
+
+}
+
+.services img{
+  /* width: 200px; */
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.services p{
+  text-align: center;
   color: #22577A;
 }
 
@@ -183,5 +268,22 @@
   }
   .hero img{
     max-width: 300px;
+  }
+  .hero-one button{
+    display: none;
+  }
+
+  /* about us */
+  .all{
+    width: 80vw;
+  }
+  .about_text{
+    text-align: center;
+  }
+}
+
+@media (max-width:480px){
+  .photo{
+    flex-direction: column;
   }
 }
