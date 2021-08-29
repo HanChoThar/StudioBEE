@@ -424,14 +424,11 @@ footer{
   position: fixed;
   z-index: 100;
 }
-#preloader h2{
-  color: #22577A;
-  font-size: 3rem;
-  letter-spacing: 0.7rem;
-  font-family:serif;
-}
+
 
 .loader {
+  position: absolute;
+  margin-top: 80vh;
   border: 4px solid #f3f3f3;
   border-radius: 50%;
   border-top: 4px solid #22577A;
