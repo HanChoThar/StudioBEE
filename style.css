@@ -332,6 +332,17 @@
 }
 
 
+/* footer */
+footer{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #C7F9CC;
+  color: #22577A;
+  text-align: center;
+}
+
 
 
 
@@ -413,13 +424,19 @@
   position: fixed;
   z-index: 100;
 }
+#preloader h2{
+  color: #22577A;
+  font-size: 3rem;
+  letter-spacing: 0.7rem;
+  font-family:serif;
+}
 
 .loader {
   border: 4px solid #f3f3f3;
   border-radius: 50%;
   border-top: 4px solid #22577A;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
