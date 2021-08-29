@@ -218,7 +218,7 @@
   /* margin-top: 2rem; */
 }
 
-#service{ 
+#service, #port{ 
   background-color: #57CC99;
   padding: 0.8rem;
   border-radius: 25px;
@@ -282,6 +282,56 @@
 }
 
 /* portfolio */
+.portforlio{
+  width: 70vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin:0 auto;
+}
+
+/* .portforlio img{
+  cursor: pointer;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  opacity: 1;
+} */
+
+.milk{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.burger, .meat, .soap{
+  display: flex;
+  width: 100%;
+  max-width: 32%;
+  height: auto;
+}
+.burger{
+  margin-right: 2%;
+}
+.meat{
+  margin-right: 2%;
+}
+
+.val, .val2{
+  width: 100%;
+  max-width: 49%;
+  height: auto;
+}
+.val{
+  margin-right: 2%;
+}
+
+.momo{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 
 
@@ -331,6 +381,11 @@
     width: 90vw;
     /* flex-direction: column; */
     justify-content: space-between;
+  }
+
+  /* protfolio */
+  .portforlio{
+    width: 90vw;
   }
 }
 

@@ -1,4 +1,6 @@
+// for animation
 AOS.init();
+
 // burger button
 const btn = document.querySelector('.fancy-burger');
 
